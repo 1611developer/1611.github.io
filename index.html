@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treasure Hunt Game</title>
+    <link rel="icon" type="image/x-icon" href="https://freesvg.org/img/publicdomainq-treasure.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="top-info">
+        <h1>Treasure Hunt Game</h1>
+        <h2>LEARN's Treasure Hunt Game</h2>
+        <hr>
+    <div class="row">
+        <div class="column">
+            <img src="https://freesvg.org/img/publicdomainq-treasure.png" alt="Treasure Chest">
+        </div>
+        <div class="column">
+            <img src="https://freesvg.org/img/bomb.png" alt="Treasure Chest">
+        </div>
+    </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, assumenda suscipit quasi maiores nam similique incidunt! Incidunt, in debitis delectus ab temporibus aspernatur eos tempore expedita consequatur pariatur! Temporibus, eos.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, assumenda suscipit quasi maiores nam similique incidunt! Incidunt, in debitis delectus ab temporibus aspernatur eos tempore expedita consequatur pariatur! Temporibus, eos.</p>
+        </div>
+        <h3>Game Rules</h3>
+        <ul>
+            <li>Click boxes to reveal what is on the map.</li>
+            <li>If  you click on the bomb, you lose.</li>
+            <li>If you click on the treasure, you win.</li>
+        </ul>
+    </section>
+
+
+
+    <table border="1">
+        <tr>
+            <td id= 0 onclick="treasure(0)">?</td>
+            <td id= 1 onclick="treasure(1)">?</td>
+            <td id= 2 onclick="treasure(2)">?</td>
+        </tr>
+        <tr>
+            <td id= 3 onclick="treasure(3)">?</td>
+            <td id= 4 onclick="treasure(4)">?</td>
+            <td id= 5 onclick="treasure(5)">?</td>
+        </tr>
+        <tr>
+            <td id= 6 onclick="treasure(6)">?</td>
+            <td id= 7 onclick="treasure(7)">?</td>
+            <td id= 8 onclick="treasure(8)">?</td>
+        </tr>
+    </table>
+    <button class="restart" type="button" onclick="location.reload()">Restart Game</button>
+
+    <footer class="footer">
+        &copy LEARN Instructors and TA's
+    </footer>
+    <script src="treasurehunt.js"></script>
+</body>
+</html>

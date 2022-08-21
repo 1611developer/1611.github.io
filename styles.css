@@ -1,0 +1,89 @@
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxUUCojqzFqgNIhB2_9VLmDPwvJV0zZKDIP-6VPzvwIijj0nAZZQeqIpwAY9gcdD2yJ78&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    font-size: 40px;
+    background-color: orange;
+    table-layout: fixed;
+  }
+
+td {
+    height: fixed;
+    width: fixed;
+}
+
+button.restart {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+
+
+h3 {
+    text-decoration: underline;
+}
+
+.top-info {
+    
+    justify-content: center;
+}
+
+h1, h2 {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    font-size: 40px;
+}
+
+.row {
+    display: flex;
+    padding-left: auto;
+    padding-right: auto
+}
+.column {
+    flex: 50%;
+    padding: 5px;
+}
+
+.footer {
+    border:1px;
+    border-style: solid;
+    margin-top: 5px;
+    width: 205px;
+    padding: 3px 5px 3px 5px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 4px;
+    background-color: aqua;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: green;
+}
+
+td:hover {
+    cursor: pointer;
+    background-color: green;
+}
